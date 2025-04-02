@@ -2,6 +2,7 @@
 # symbol, tool window, or setting in PyCharm, in your project,
 # and in the current Git repository.
 
+
 #TODO what data is inputted
 
 ## object user_brief_resource ##
@@ -10,7 +11,7 @@
 # URl
 class UserBriefResource:
   # constructor
-  object_title = "Morning Brief"
+  resource_type = "Morning Brief"
   def __init__(self):
     self.resource_title = input("resource title: ")
     self.resource_description = input("resource description: ")
