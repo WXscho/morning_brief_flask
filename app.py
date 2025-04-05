@@ -2,8 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
+@app.route('/brief')
+def brief():
   return render_template('output_user_brief.html')
 
 
